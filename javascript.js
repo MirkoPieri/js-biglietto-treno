@@ -14,7 +14,7 @@ kilometri = parseInt(prompt("Inserisci i kilometri che devi percorrere"));
 
 eta = parseInt(prompt("Inserisci la tua età"));
 
-prezzoAlkm = ("0.21");
+prezzoAlkm = (0.21);
 
 prezzoTotale = kilometri * prezzoAlkm;
 console.log(prezzoTotale);
