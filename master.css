@@ -26,11 +26,31 @@ header h1 {
   padding-top: 100px;
 }
 
-.general #two p {
-  display: inline-block;
+.general #two span  {
   margin-left: 50px;
   font-weight: bold;
   font-size: 20pt;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 30px;
+}
+
+.general #two p  {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 20pt;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.general #two #sconto  {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 16pt;
+  margin-top: 30px;
+  color: #B22222;
+  text-transform: none;
 }
 
 .general #two #javagl_id {
