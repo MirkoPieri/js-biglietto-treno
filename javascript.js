@@ -23,13 +23,13 @@ console.log(prezzoTotale);
 if (eta < 18) {
    prezzoSconto = ((prezzoTotale * 20) / 100);
    prezzoFinale = prezzoTotale - prezzoSconto;
-   elemento.innerHTML = prezzoFinale + "€";
+   elemento.innerHTML = prezzoFinale.toFixed(2) + "€";
    elementoSconto.innerHTML = "Sconto del 20% perché minorenne.";
 } else if (eta > 65) {
     prezzoSconto = ((prezzoTotale * 40) / 100);
     prezzoFinale = prezzoTotale - prezzoSconto;
-    elemento.innerHTML = prezzoFinale + "€";
+    elemento.innerHTML = prezzoFinale.toFixed(2) + "€";
     elementoSconto.innerHTML = "Sconto del 40% perché over 65 anni.";
 } else {
-    elemento.innerHTML = prezzoTotale + "€";
+    elemento.innerHTML = prezzoTotale.toFixed(2) + "€";
 }
